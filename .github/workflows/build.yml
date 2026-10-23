@@ -7,10 +7,10 @@ defaults:
 on:
   workflow_dispatch:
     inputs:
-      package_name:
+      package_name: php
         description: 'Package to build'
         required: true
-      target_version:
+      target_version: 8.4.26
         description: 'Version prefix (e.g., 17)'
         required: true
       custom_commit:
